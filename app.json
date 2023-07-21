@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "StickerSmash",
+    "slug": "stickersmash",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#25292e"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8f597243-682f-4e3a-90bf-1ac4dbcddb3b"
+      }
+    },
+    "owner": "shishir435",
+    "plugins": [
+      "expo-build-properties"
+    ]
+  }
+}
